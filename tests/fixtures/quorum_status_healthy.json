@@ -1,0 +1,13 @@
+{
+  "election_epoch": 12,
+  "quorum": [0, 1, 2],
+  "quorum_names": ["a", "b", "c"],
+  "quorum_leader_name": "a",
+  "monmap": {
+    "mons": [
+      {"rank": 0, "name": "a", "addr": "10.0.0.1:6789/0"},
+      {"rank": 1, "name": "b", "addr": "10.0.0.2:6789/0"},
+      {"rank": 2, "name": "c", "addr": "10.0.0.3:6789/0"}
+    ]
+  }
+}

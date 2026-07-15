@@ -1,0 +1,20 @@
+{
+  "stats": {
+    "total_bytes": 10737418240,
+    "total_avail_bytes": 6442450944,
+    "total_used_bytes": 4294967296,
+    "total_used_raw_bytes": 4294967296
+  },
+  "pools": [
+    {
+      "name": "rbd",
+      "id": 1,
+      "stats": {"stored": 2000000000, "objects": 500, "bytes_used": 2000000000, "percent_used": 0.3, "max_avail": 4000000000}
+    },
+    {
+      "name": ".rgw.root",
+      "id": 2,
+      "stats": {"stored": 4096, "objects": 4, "bytes_used": 4096, "percent_used": 0.0001, "max_avail": 4000000000}
+    }
+  ]
+}

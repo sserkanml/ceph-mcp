@@ -1,0 +1,21 @@
+{
+  "status": "HEALTH_ERR",
+  "checks": {
+    "PG_DAMAGED": {
+      "severity": "HEALTH_ERR",
+      "summary": {"message": "Possible data damage: 2 pgs inconsistent", "count": 2},
+      "detail": [{"message": "pg 3.5 is active+clean+inconsistent"}],
+      "muted": false
+    },
+    "OSD_DOWN": {
+      "severity": "HEALTH_WARN",
+      "summary": {"message": "2 osds down", "count": 2},
+      "detail": [
+        {"message": "osd.1 (root=default,host=host1) is down"},
+        {"message": "osd.4 (root=default,host=host2) is down"}
+      ],
+      "muted": false
+    }
+  },
+  "mutes": []
+}

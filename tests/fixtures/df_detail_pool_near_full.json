@@ -1,0 +1,15 @@
+{
+  "stats": {
+    "total_bytes": 10737418240,
+    "total_avail_bytes": 214748364,
+    "total_used_bytes": 10522669876,
+    "total_used_raw_bytes": 10522669876
+  },
+  "pools": [
+    {
+      "name": "rbd",
+      "id": 1,
+      "stats": {"stored": 9800000000, "objects": 12000, "bytes_used": 9800000000, "percent_used": 0.95, "max_avail": 214748364}
+    }
+  ]
+}

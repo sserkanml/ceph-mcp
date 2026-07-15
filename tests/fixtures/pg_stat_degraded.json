@@ -1,0 +1,16 @@
+{
+  "pg_ready": true,
+  "pg_summary": {
+    "num_pg_by_state": [
+      {"name": "active+clean", "num": 300},
+      {"name": "active+undersized+degraded", "num": 16},
+      {"name": "active+recovering", "num": 4}
+    ],
+    "num_pgs": 320,
+    "num_bytes": 0,
+    "total_bytes": 6442450944,
+    "total_avail_bytes": 6137896960,
+    "total_used_bytes": 304553984,
+    "total_used_raw_bytes": 304553984
+  }
+}

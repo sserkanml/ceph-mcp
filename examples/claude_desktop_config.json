@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "ceph-mcp": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--directory",
+        "/absolute/path/to/ceph-mcp",
+        "ceph-mcp"
+      ],
+      "env": {
+        "CEPH_MCP_NAMESPACE": "rook-ceph",
+        "CEPH_MCP_TOOLBOX_LABEL": "app=rook-ceph-tools"
+      }
+    }
+  }
+}

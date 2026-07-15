@@ -1,0 +1,21 @@
+{
+  "status": "HEALTH_WARN",
+  "checks": {
+    "OSD_DOWN": {
+      "severity": "HEALTH_WARN",
+      "summary": {"message": "1 osds down", "count": 1},
+      "detail": [{"message": "osd.3 (root=default,host=host2) is down"}],
+      "muted": false
+    },
+    "PG_DEGRADED": {
+      "severity": "HEALTH_WARN",
+      "summary": {
+        "message": "Degraded data redundancy: 128/4096 objects degraded (3.125%), 16 pgs degraded",
+        "count": 16
+      },
+      "detail": [{"message": "pg 2.1a is active+undersized+degraded"}],
+      "muted": false
+    }
+  },
+  "mutes": []
+}

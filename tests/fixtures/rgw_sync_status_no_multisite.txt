@@ -1,0 +1,6 @@
+          realm 4c8f6f10-1234-4567-89ab-cdef01234567 (myrealm)
+      zonegroup 12345678-90ab-cdef-1234-567890abcdef (us)
+           zone 87654321-ba09-fedc-4321-0987654321ba (us-east-1)
+   current time 2024-01-15T10:30:00Z
+  zonegroup features enabled: resharding
+      metadata sync no sync (zone is master)
